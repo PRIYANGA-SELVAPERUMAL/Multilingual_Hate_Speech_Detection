@@ -3,8 +3,6 @@ This project focuses on detecting hate speech, stress, and anxiety-related conte
 
 **🔍 Key Features:**
 **Dataset Processing:** Text cleaning, tokenization, lemmatization, and translation handling.
-🔍 Key Features:
-**Dataset Processing:** Text cleaning, tokenization, lemmatization, and translation handling.
 
 **Feature Engineering:**
 Traditional ML features: TF-IDF, Word2Vec, handcrafted linguistic features
