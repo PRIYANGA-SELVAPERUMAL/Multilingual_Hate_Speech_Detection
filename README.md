@@ -97,6 +97,7 @@ Design a robust multilingual hate speech detection model capable of identifying 
 | **Epochs**          | 5                                                              |
 
 ✅ F1-Score (Bengali): **85.67%**
+
 ✅ F1-Score (Indonesian): **82.08%**
 
 ---
@@ -161,12 +162,12 @@ Launch `.ipynb` files for Bengali/Indonesian or run `main.py` for terminal-based
 <a name="future-enhancements"></a>
 ## 🔭 Future Enhancements
 
-* ✅ Add attention mechanism over BiLSTM outputs
-* ✅ Integrate XAI for explainable predictions
-* 🌐 API-based deployment (Flask / FastAPI)
-* 📱 Mobile/web interface using Streamlit or React
-* 📚 Extend support to more languages (Tamil, Hindi, etc.)
-* 🧠 Experiment with newer models like XLM-R and mT5
+*  Add attention mechanism over BiLSTM outputs
+*  Integrate XAI for explainable predictions
+*  API-based deployment (Flask / FastAPI)
+*  Mobile/web interface using Streamlit or React
+*  Extend support to more languages (Tamil, Hindi, etc.)
+*  Experiment with newer models like XLM-R and mT5
 
 
 
