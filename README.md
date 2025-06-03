@@ -119,8 +119,7 @@ Design a robust multilingual hate speech detection model capable of identifying 
 ### 🔁 Clone the repo:
 
 ```bash
-git clone https://github.com/PRIYANGA-SELVAPERUMAL/hate-speech-mbert-bilstm.git
-cd hate-speech-mbert-bilstm
+git clone https://github.com/PRIYANGA-SELVAPERUMAL/Multilingual_Hate_Speech_Detection/tree/main
 ```
 
 ### 🐍 Create and activate virtual environment:
