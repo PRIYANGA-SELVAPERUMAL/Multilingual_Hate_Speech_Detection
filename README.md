@@ -37,6 +37,7 @@ The surge in multilingual hate speech on social media platforms demands intellig
   * `1` → Hate Speech
   * `0` → Non-Hate
 * Challenges: Slang, transliteration, code-mixing
+
   🔗 [Bengali Dataset Link](https://www.kaggle.com/datasets/naurosromim/bengali-hate-speech-dataset)
 
 ### Indonesian Hate Speech Superset (Hugging Face)
@@ -44,6 +45,7 @@ The surge in multilingual hate speech on social media platforms demands intellig
 * 14,306 Twitter posts from merged datasets
 * Columns: `text`, `label`, `source`, `annotators`
 * Balanced binary labels
+
   🔗 [Indonesian Dataset Link](https://huggingface.co/datasets/manueltonneau/indonesian-hate-speech-superset)
 
 ---
