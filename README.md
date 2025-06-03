@@ -60,6 +60,9 @@ Design a robust multilingual hate speech detection model capable of identifying 
 <a name="methodology"></a>
 ## 🔍 Methodology
 
+![git1 drawio](https://github.com/user-attachments/assets/9d308a03-7d41-41f7-8f5c-c62ec14f99d6)
+
+
 ### Preprocessing:
 
 * Cleaning: Lowercase, remove URLs/usernames, punctuation
@@ -85,6 +88,8 @@ Design a robust multilingual hate speech detection model capable of identifying 
 
 <a name="model-architecture"></a>
 ## 🧠 Model Architecture: mBERT–BiLSTM
+
+C:\Users\PRIYANGA\Downloads\git2.png
 
 | **Component**       | **Description**                                                |
 | ------------------- | -------------------------------------------------------------- |
