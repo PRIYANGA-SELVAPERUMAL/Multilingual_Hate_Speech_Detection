@@ -19,12 +19,14 @@ An end-to-end deep learning project that leverages a hybrid **mBERT–BiLSTM** a
 
 ---
 
+<a name="about-the-project"></a>
 ## 📖 About the Project
 
 The surge in multilingual hate speech on social media platforms demands intelligent systems capable of handling code-mixed and low-resource language data. This project proposes a **hybrid mBERT–BiLSTM model** fine-tuned on Bengali and Indonesian datasets to classify text as hateful or non-hateful. It ensures real-time inference, robust evaluation, and scalable deployment potential.
 
 ---
 
+<a name="datasets"></a>
 ## 📊 Datasets
 
 ### Bengali Hate Speech Dataset (Kaggle)
@@ -46,12 +48,14 @@ The surge in multilingual hate speech on social media platforms demands intellig
 
 ---
 
+<a name="problem-statement"></a>
 ## ❓ Problem Statement
 
 Design a robust multilingual hate speech detection model capable of identifying harmful content across **low-resource languages**. The system should generalize across linguistic variations and be suitable for **content moderation tools**.
 
 ---
 
+<a name="methodology"></a>
 ## 🔍 Methodology
 
 ### Preprocessing:
@@ -77,21 +81,27 @@ Design a robust multilingual hate speech detection model capable of identifying 
 
 ---
 
+<a name="model-architecture"></a>
 ## 🧠 Model Architecture: mBERT–BiLSTM
 
-| Component     | Details                             |
-| ------------- | ----------------------------------- |
-| Transformer   | `bert-base-multilingual-cased`      |
-| Embedding Dim | 768                                 |
-| BiLSTM        | 2 layers × 128 units (→ 256 concat) |
-| Dropout       | 0.3                                 |
-| Classifier    | Dense layer (256 → 2)               |
+| **Component**       | **Description**                                                |
+| ------------------- | -------------------------------------------------------------- |
+| **Base Model**      | `bert-base-multilingual-cased` (fine-tuned)                    |
+| **Embedding Size**  | 768                                                            |
+| **BiLSTM**          | 2 layers × 128 hidden units (→ 256 after bidirectional concat) |
+| **Dropout**         | 0.3 (applied after BiLSTM)                                     |
+| **Classifier Head** | Dense layer (Linear 256 → 2 classes)                           |
+| **Loss Function**   | Weighted `CrossEntropyLoss`                                    |
+| **Optimizer**       | `AdamW` with learning rate of `2e-5`                           |
+| **Batch Size**      | 16                                                             |
+| **Epochs**          | 5                                                              |
 
 ✅ F1-Score (Bengali): **85.67%**
 ✅ F1-Score (Indonesian): **82.08%**
 
 ---
 
+<a name="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 | Layer         | Tools/Frameworks                   |
@@ -100,10 +110,10 @@ Design a robust multilingual hate speech detection model capable of identifying 
 | Tokenization  | WordPiece, Attention Masks         |
 | Data Handling | Pandas, NumPy                      |
 | Evaluation    | Scikit-learn, Matplotlib, Seaborn  |
-| Deployment    | Flask (optional for web inference) |
 
 ---
 
+<a name="how-to-run-the-project"></a>
 ## ⚙️ How to Run the Project
 
 ### 🔁 Clone the repo:
@@ -133,6 +143,7 @@ Launch `.ipynb` files for Bengali/Indonesian or run `main.py` for terminal-based
 
 ---
 
+<a name="results"></a>
 ## ✅ Results
 
 | Metric    | Bengali | Indonesian |
@@ -148,6 +159,7 @@ Launch `.ipynb` files for Bengali/Indonesian or run `main.py` for terminal-based
 
 ---
 
+<a name="future-enhancements"></a>
 ## 🔭 Future Enhancements
 
 * ✅ Add attention mechanism over BiLSTM outputs
@@ -157,6 +169,5 @@ Launch `.ipynb` files for Bengali/Indonesian or run `main.py` for terminal-based
 * 📚 Extend support to more languages (Tamil, Hindi, etc.)
 * 🧠 Experiment with newer models like XLM-R and mT5
 
----
 
 
