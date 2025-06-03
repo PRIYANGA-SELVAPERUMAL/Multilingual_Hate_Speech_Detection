@@ -88,12 +88,12 @@ Design a robust multilingual hate speech detection model capable of identifying 
 
 <a name="model-architecture"></a>
 ## 🧠 Model Architecture: mBERT–BiLSTM
-
+---
 
 <img width="956" alt="git2" src="https://github.com/user-attachments/assets/df7d1d06-ad7b-4789-8bd1-06c9221ee190" />
 
 
-
+---
 
 | **Component**       | **Description**                                                |
 | ------------------- | -------------------------------------------------------------- |
@@ -107,9 +107,6 @@ Design a robust multilingual hate speech detection model capable of identifying 
 | **Batch Size**      | 16                                                             |
 | **Epochs**          | 5                                                              |
 
-✅ F1-Score (Bengali): **85.67%**
-
-✅ F1-Score (Indonesian): **82.08%**
 
 ---
 
@@ -165,7 +162,7 @@ Launch `.ipynb` files for Bengali/Indonesian or run `main.py` for terminal-based
 | F1-Score  | 85.67%  | 82.08%     |
 | AUC–ROC   | 0.9595  | 0.9085     |
 
-* 📊 Confusion Matrices and AUC plots available in the results folder
+* 📊 Confusion Matrices and AUC plots available in the results section
 * 🔍 Sample predictions included for real-world evaluation
 
 ---
