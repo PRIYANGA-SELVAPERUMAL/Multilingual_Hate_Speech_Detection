@@ -89,7 +89,9 @@ Design a robust multilingual hate speech detection model capable of identifying 
 <a name="model-architecture"></a>
 ## 🧠 Model Architecture: mBERT–BiLSTM
 
-C:\Users\PRIYANGA\Downloads\git2.png
+<img width="896" alt="git2" src="https://github.com/user-attachments/assets/9d37ca57-99e6-404d-9751-635ce66959c3" />
+
+
 
 | **Component**       | **Description**                                                |
 | ------------------- | -------------------------------------------------------------- |
